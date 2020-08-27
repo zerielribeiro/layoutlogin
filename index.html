@@ -4,42 +4,74 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="container">
-      <div class="content-login">
-        <img class="btngo" src="./acet/ggoogle.png" alt="google" />
-        <h2>Or</h2>
+    <section>
+      <div class="container">
+        <div class="content-login">
+          <button class="google">
+            <img src="./acet/ggoogle.png" alt="google" />Entrar com o google
+          </button>
+          <h2 class="or">Or</h2>
+
+          <form class="form">
+            <div class="label">
+              <label>Email</label>
+            </div>
+            <input type="email" placeholder=" enter you email" />
+            <div class="password">
+            <label>Password</label>
+          </div class="label">
+            <input type="password" placeholder="password" />
+            <div class="checkbox">
+            <label><input type="checkbox" />Remember me</label>
+            <a href="/">Forgot password?</a>
+          </div>
+            <button class="btncreate">Entrar</button>
+          </form>
+          <div class="footer">
+            Don’t have an account?
+            <a href="/">Sign up</a>
+          </div>
+        </div>
+        <div class="linha"></div>
+        <!-- começo da descriçao -->
+        <div class="content-description">
+          <div class="desc">
+            <img src="./acet/Path.png" alt="" />
+            <div>
+              <h2>Development</h2>
+              <p>
+                A modern and clean design system for<br />
+                developing fast and powerful web interfaces.
+              </p>
+            </div>
+          </div>
+          <div class="desc">
+            <img src="./acet/Path (1).png" alt="" />
+
+            <div>
+              <h2>Features</h2>
+              <p>
+                A modern and clean design system for <br />developing fast and
+                powerful web interfaces.
+              </p>
+            </div>
+          </div>
+
+          <div class="desc">
+            <img src="./acet/Path (2).png" alt="" />
+            <div>
+              <h2>Updates</h2>
+              <p>
+                A modern and clean design system for <br />developing fast and
+                powerful web interfaces.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
-      <form class="form" action="">
-        <label>Email <input type="email" placeholder="email" /></label>
-        <label>Password <input type="password" placeholder="password" /></label>
-        <button class="btncreate">Create</button>
-        <label><input type="checkbox" />Remember me</label>
-        <a href="/">Forgot password?</a>
-      </form>
-      <div class="content-description"></div>
-      <div class="deve"></div>
-      <img src="./acet/Path.png" alt="" />
-      <h2>Development</h2>
-      <p>
-        A modern and clean design system for<br />
-        developing fast and powerful web interfaces.
-      </p>
-      <div class="feat"></div>
-      <img src="./acet/Path (1).png" alt="" />
-      <h2>Features</h2>
-      <p>
-        A modern and clean design system for <br />developing fast and powerful
-        web interfaces.
-      </p>
-      <div class="upda"></div>
-      <img src="./acet/Path (2).png" alt="" />
-      <h2>Updates</h2>
-      <p>
-        A modern and clean design system for <br />developing fast and powerful
-        web interfaces.
-      </p>
-    </div>
+    </section>
   </body>
 </html>
